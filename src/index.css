@@ -3,36 +3,38 @@
 @theme {
     --font-mono: "Roboto Mono", monospace;
 
-    /* Base surfaces */
-    --color-app-bg: #2d2a2e;
-    /* deep background */
-    --color-app-panel: #343136;
-    /* slightly lighter panel */
-    --color-app-border: #5b595c;
-    /* border lines */
+    /* Surfaces */
+    --color-app-bg: #0f1115;
+    /* page */
+    --color-app-panel: #151820;
+    /* cards/panels */
+    --color-app-hover: #1b212b;
+    /* hover */
+    --color-app-border: #262a33;
+    /* dividers */
 
     /* Text */
-    --color-app-text: #fcfcfa;
-    /* bright foreground */
-    --color-app-subtext: #939293;
-    /* dimmed / secondary */
+    --color-app-text: #e6e6e6;
+    /* primary */
+    --color-app-subtext: #8a9199;
+    /* secondary */
 
-    /* Accents (Monokai Pro scheme) */
-    --color-app-accent: #78dce8;
-    /* cyan/turquoise highlight */
-    --color-app-add: #a9dc76;
-    /* green (success/added) */
-    --color-app-delete: #ff6188;
-    /* pink/red (error/destructive) */
-    --color-app-delete-hover: #e55a7b;
-    --color-app-hover: #403e41;
-    /* hover overlay */
+    /* Accents (punchier) */
+    --color-app-accent: #6ee7ff;
+    /* cyan highlight */
+    --color-app-add: #22e3a5;
+    /* teal/green */
+    --color-app-delete: #ff4d5e;
+    /* hot red-pink */
+    --color-app-delete-hover: #e64556;
 
-    /* Optional additional Monokai Pro hues for future use */
-    --color-app-orange: #fc9867;
-    --color-app-purple: #ab9df2;
-    --color-app-yellow: #ffd866;
+    /* Optional extra accents for tags/status */
+    --color-app-purple: #b287ff;
+    --color-app-orange: #ffb86b;
+    --color-app-yellow: #ffd166;
+    --color-app-blue: #5aa9ff;
 }
+
 
 body {
     user-select: none;
