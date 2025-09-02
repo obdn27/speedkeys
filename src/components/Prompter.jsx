@@ -4,7 +4,7 @@ export default function Prompter({ active, prompt, onStart, onStop }) {
             <button
                 type="button"
                 onClick={onStart}
-                className="w-full rounded-xl bg-app-add hover:bg-app-hover text-app-text font-semibold py-3 transition-colors"
+                className="w-full rounded-xl bg-app-add hover:brightness-90 text-black font-semibold py-3 transition-colors"
             >
                 Start training
             </button>
